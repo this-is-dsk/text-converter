@@ -1,0 +1,37 @@
+body{
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.container{
+    position: relative;
+    height: 300px;
+    width:250px ;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 150px;
+    padding: 20px;
+    box-shadow: 3px 3px 7px rgb(49, 49, 49);
+}
+textarea{
+    height: 160px;
+    width: 230px;
+    background-color: white;
+    border: 1px solid black;
+}
+button{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(59, 59, 255);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 7px rgb(49, 49, 49);
+    
+}
